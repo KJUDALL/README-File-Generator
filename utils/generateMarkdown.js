@@ -52,6 +52,7 @@ function generateMarkdown(data) {
   ${data.installation}
   ## Usage
   ${data.usage}
+  [Watch the video](${data.videoLink})
   ## License
   ${renderLicenseBadge(data.license)}
   ${renderLicenseSection(data.license)}
