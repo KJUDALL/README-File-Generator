@@ -8,10 +8,10 @@ import Choices from "inquirer/lib/objects/choices.js";
 const questions = [
     { name: 'title', message: 'What is the title of your app?' },
     { name: 'description', message: 'Provide a description of your app:' },
-    { name: 'contents', message: 'Hit enter.' },
+    { name: 'contents', message: 'To create your Table of Contents, hit enter.' },
     { name: 'installation', message: 'Provide installation instructions:' },
     { name: 'usage', message: 'How can I use this app?' },
-    { name: 'licenses', type: 'list', message: 'Provide the necessary licenses:', choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3', 'None'] },
+    { name: 'license', type: 'list', message: 'Provide the necessary license:', choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'None'] },
     { name: 'tests', message: 'How can I test this app?' },
     { name: 'questions', message: 'Any additional questions?' },
     { name: 'github', message: 'For contacting purposes, enter your GitHub username:' },
